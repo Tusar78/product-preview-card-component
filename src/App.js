@@ -1,10 +1,11 @@
 import React from 'react';
-
+import GlobalStyle from './Styled_Components/GlobalStyles.styles';
 const App = () => {
   return (
-    <div>
-      <h1>Start Project from scratch!</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      
+    </>
   );
 };
 

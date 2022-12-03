@@ -17,4 +17,8 @@ const CardContainer = styled.div`
   background-color: var(--white);
 `
 
-export { StyledCardSection, CardContainer };
+const CardImage = styled.div`
+  flex: 1 1 0%;
+`
+
+export { StyledCardSection, CardContainer, CardImage };

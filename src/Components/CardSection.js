@@ -1,12 +1,15 @@
 import React from "react";
 import {
+  CardButton,
   CardContainer,
+  CardDescription,
   CardImage,
+  CardRate,
   StyledCardSection,
 } from "../Styled_Components/Container.styles";
 import desktopImg from "../assets/images/image-product-desktop.jpg";
 import cartIcon from "../assets/images/icon-cart.svg";
-import { Image } from "../Styled_Components/Element.styles";
+import { CardDiscount, CardPrice, CardSubtitle, CardText, CardTitle, CartIcon, Image } from "../Styled_Components/Element.styles";
 
 const CardSection = () => {
   return (

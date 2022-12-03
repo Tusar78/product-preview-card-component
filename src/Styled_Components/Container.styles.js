@@ -65,6 +65,11 @@ const CardButton = styled.button`
   border-radius: 8px;
   outline: none;
   cursor: pointer;
+  transition: all .25s ease;
+
+  &:hover {
+    background-color: hsl(158,36%,20%);
+  }
 `;
 
 export {
